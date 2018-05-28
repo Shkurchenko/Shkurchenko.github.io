@@ -388,7 +388,8 @@ footer ul li {
   margin-top: 40px;
   box-sizing: border-box;
   position: relative;
-  display: none; }
+  display: none;
+  border-radius: 2px;}
 
 .grid-content {
   margin-bottom: 40px; }
@@ -451,7 +452,10 @@ footer ul li {
     border-color: rgba(28, 27, 26, 0);
     border-top: 1px solid rgba(28, 27, 26, 0.1);
     letter-spacing: 0.07em;
-    padding-left: 5px; }
+    padding-left: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    }
     .products-grid-block .btn-product-column .btn-buy:hover,
     .products-grid-block .btn-product-column .btn-overview:hover {
       border-color: #2985F7 !important; }
